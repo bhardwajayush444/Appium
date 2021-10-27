@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="97424" started-at="2021-10-27T06:18:14Z" finished-at="2021-10-27T06:19:52Z">
+    <groups>
+    </groups>
+    <test name="D:/appiumFramework" duration-ms="97424" started-at="2021-10-27T06:18:14Z" finished-at="2021-10-27T06:19:52Z">
+      <class name="testCases.uiAuotmatorTest">
+        <test-method status="PASS" signature="uiAutomatorSwipeTest()[pri:0, instance:testCases.uiAuotmatorTest@14acaea5]" name="uiAutomatorSwipeTest" duration-ms="45004" started-at="2021-10-27T06:19:07Z" finished-at="2021-10-27T06:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiAutomatorSwipeTest -->
+      </class> <!-- testCases.uiAuotmatorTest -->
+      <class name="testCases.EcommerceTestCases">
+        <test-method status="PASS" signature="PageObjecttestCase()[pri:0, instance:testCases.EcommerceTestCases@224edc67]" name="PageObjecttestCase" duration-ms="52369" started-at="2021-10-27T06:18:14Z" finished-at="2021-10-27T06:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageObjecttestCase -->
+      </class> <!-- testCases.EcommerceTestCases -->
+    </test> <!-- D:/appiumFramework -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
