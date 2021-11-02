@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="testCases.EcommerceTestCases" hash-for-method="PageObjecttestCase">PageObjecttestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="testCases.chromeBrowserTest" hash-for-method="chromeBrowsertest">chromeBrowsertest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -122,6 +127,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.chromeBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowsertest">
+                  </a> <!-- chromeBrowsertest -->
+                  <span class="method-name">chromeBrowsertest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -170,6 +190,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;testCases.EcommerceTestCases&quot;/&gt;
       &lt;class name=&quot;testCases.uiAuotmatorTest&quot;/&gt;
+      &lt;class name=&quot;testCases.chromeBrowserTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- D:/appiumFramework --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -183,7 +204,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">D:/appiumFramework (2 classes)</span>
+                <span class="test-name">D:/appiumFramework (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,15 +230,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'PageObjecttestCase')
-data.setCell(0, 2, 'testCases.EcommerceTestCases')
-data.setCell(0, 3, 52369);
+data.setCell(0, 1, 'chromeBrowsertest')
+data.setCell(0, 2, 'testCases.chromeBrowserTest')
+data.setCell(0, 3, 38270);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'uiAutomatorSwipeTest')
-data.setCell(1, 2, 'testCases.uiAuotmatorTest')
-data.setCell(1, 3, 45004);
+data.setCell(1, 1, 'PageObjecttestCase')
+data.setCell(1, 2, 'testCases.EcommerceTestCases')
+data.setCell(1, 3, 26495);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'uiAutomatorSwipeTest')
+data.setCell(2, 2, 'testCases.uiAuotmatorTest')
+data.setCell(2, 3, 26013);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
@@ -258,7 +283,14 @@ return data;
               <div class="chronological-class-name">testCases.uiAuotmatorTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">uiAutomatorSwipeTest</span>
-                <span class="method-start">52377 ms</span>
+                <span class="method-start">26498 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.chromeBrowserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowsertest</span>
+                <span class="method-start">52511 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

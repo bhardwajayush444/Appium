@@ -9,5 +9,6 @@
         <classes>
             <class name="testCases.EcommerceTestCases"/>
             <class name="testCases.uiAuotmatorTest"></class>
+            <class name="testCases.chromeBrowserTest"></class>
         </classes>
     </test></suite>
